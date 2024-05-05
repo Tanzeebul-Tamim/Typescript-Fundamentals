@@ -1,0 +1,68 @@
+Basic things to know
+
+* NVM -> Node Version Manager, helps us to switch between different versions of Node
+* run this command to check which version of node is installed in your system -> node -v
+* run this command to check which version of nvm is installed in your system -> nvm --v
+* node/browser cannot run typescript. First it is compiled to javascript then it is run.
+* run this command to make a typescript configuration file -> tsc --init
+* In the tsconfig.json file, you can configure typescript as your need, you can specify in which directory the compiled javascript files will be created
+* run this code to make the javascript compilation -> tsc
+
+Dive down into typescript
+
+* let firstName = "Mezba"; -> typescript will automatically infer the data type and it is called the implicit data type of the typescript compile
+* let firstName = "Mezba"; -> Defining data type explicitly
+* let d; -> typescript will infer as "any" type which allows you to assign the variable with any type of data.
+* let friends: string[] = ["rachel", "monica"]; -> this how you define the type annotation for an array of strings.
+* let eligibleRollList: number[] = [1, 2, 3, 1]; -> same goes for array of numbers
+* let ageName: [number, string] = [22, 'Tamim']; -> tuple is a specific kind of array which allows you to define types for each element of the array
+
+* JS types in TS -> number, string, boolean, null, undefined, object, symbol
+* TS own types -> interface, void, array, tuple, enum, union, intersection
+* primitive and non primitive data types in typescript
+** primitive -> number, string, boolean, null, undefined, symbol
+** non primitive -> array, tuple, object
+
+* const user: {
+  readonly company: "Programming Hero"; //* Literal type, readonly restricts you from reassigning, also called access modifier
+  firstName: string;
+  middleName?: string; //* Optional type
+  lastName: string;
+  isMarried: boolean;
+} = {
+  company: "Programming Hero",
+  firstName: "Jhankar",
+  lastName: "Mahbub",
+  isMarried: true,
+};
+
+* const addArrow = (num1: number, num2: number = 10): number => num1 + num2; //* number = 10 defines the default value for the parameter num2
+
+* If there's a function in an object, it's called a method
+const poorUser = {
+  name: "Mezba",
+  balance: 0,
+  addBalance(balance: number): string {
+    return `My new balance is ${this.balance + balance}`;
+  },
+};
+
+* Object destructuring and name alias
+const {
+    contactNo,
+    name: { middleName: midName }, //* Name alias "midName"
+  } = user;
+
+Programming paradigms
+1. procedural programming: executes sequentially
+2. functional programming: functions are the main building block
+3. declarative programming: what's being wanted to accomplish are defined and the underlying system or framework figures out how to achieve that
+4. object oriented programming: 
+5. event driven programming
+
+
+* 4 pillars of object oriented programming
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Encapsulation
