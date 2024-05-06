@@ -15,7 +15,7 @@
   //   model: 2000,
   // };
 
-  //* You cannot annotate type to a Class in the regular way. For that "implements" keyword needs to be used
+  //* You cannot annotate type to a Class in the regular way (wrong: class Car: Vehicle{}). For that "implements" keyword needs to be used
   //* Real implementation
   class Car implements Vehicle {
     //* You must use all the properties that are defined in the interface
