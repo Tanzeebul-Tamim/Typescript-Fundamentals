@@ -7,6 +7,5 @@
 #### Clone the repository:
 
 ```sh
-git clone https://github.com/Tanzeebul-Tamim/CSE-110-Assignments.git
-
+git clone https://github.com/Tanzeebul-Tamim/Typescript-Fundamentals.git
 ```
