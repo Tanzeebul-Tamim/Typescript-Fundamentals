@@ -1,18 +1,8 @@
-# batch3-assignment-1
+# Typesscript Fundamentals Problem Solving
 
-## Assignment: Basic Problem Solving with TypeScript
+## Basic Problem Solving with TypeScript
 
 This assignment comprises various problems that demonstrate fundamental TypeScript concepts, including data typing, interfaces for objects, class usage with inheritance, type checking, and manipulation of data structures. The solutions aim to showcase efficient and clear problem-solving techniques using TypeScript, adhering to best coding practices.
-
-The assignment tasks cover a range of topics:
-
-1. *String Manipulation:* Implementing functions to repeat strings and reverse arrays.
-2. *Array Operations:* Finding the largest number in an array and filtering even numbers.
-3. *Object Handling:* Defining interfaces for student and book objects and performing operations like calculating average grades and checking recent book publications.
-4. *Type Guard and Error Handling:* Creating a function to log strings and handle different data types using type guards.
-5. *Class Implementation:* Designing a class to represent car information and displaying relevant details.
-
-Each problem is accompanied by sample input and output, showcasing how TypeScript can be used to solve practical programming challenges effectively.If you have any questions or need further clarification on any problem, please let us know in our facebook group.
 
 ## Problem 1:
 
@@ -145,35 +135,9 @@ new Car("Toyota", "Corolla", 2020);
 </br>
 </br>
 
-## Blog Writing (anyone):
+## Blog Writing:
 
 Write an impactful blog posts covering the following topics:
 1. The significance of union and intersection types in Typescript.
 2. How to handle asynchronous operations using `async/await` over `callback/promise` TypeScript.
 3. Why are Type Guards Necessary? Discuss Various Types of Type Guards and Their Use Cases.
-   
-_Note:You will have to choose any **one** blog topic_
-
-</br>
-</br>
-</br>
-
-## Private Repogitory
-[https://classroom.github.com/a/xLyOULhz](https://classroom.github.com/a/xLyOULhz)
-
-### Instructions:
-* Solve the problems in a separate file. Name the file starting with "problem-" followed by the problem number.
-   (For example: problem-1.ts)
-* Write the blogs in separate .md files. Name them starting with "blog-" followed by the blog number.
-  (For example: blog-1.md / blog-2.md)
-* The blog should be written in simple English, providing some code examples.
-* Make sure the solution you provide is your own work and doesn't use any AI or machine-generated help. Stick to the rules given.
-* Follow standard coding practices to make your code easy to read and understand.
-* Don't copy code from other students. If you do, you'll get a score of 0.
-* Share the link to your GitHub repository where you've uploaded your submission.
-
-### Assignment Deadlines:
-
-- 60 marks: May 8, 2024, 11:59 PM
-- 50 marks: May 9, 2024, 11:59 PM
-- 30 marks: After May 9, 11.59 PM
