@@ -1,8 +1,8 @@
 # TypeScript Fundamentals
 
-## This repository provides a structured collection of TypeScript code examples and exercises for beginners learning TypeScript.
+### This repository provides a structured collection of TypeScript code examples and exercises for beginners learning TypeScript.
 
-### Note: Read the comments and observe the console statements for better understanding
+**Note:** Read the comments and observe the console statements for better understanding
 
 #### Clone the repository:
 
