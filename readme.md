@@ -1,4 +1,4 @@
-# TypeScript Fundamentals
+# Typescript Fundamentals
 
 ### This repository provides a structured collection of TypeScript code examples and exercises for beginners learning TypeScript.
 
