@@ -1,4 +1,4 @@
-# Typesscript Fundamentals Problem Solving
+# Typescript Fundamentals Problem Solving
 
 ## Basic Problem Solving with TypeScript
 
