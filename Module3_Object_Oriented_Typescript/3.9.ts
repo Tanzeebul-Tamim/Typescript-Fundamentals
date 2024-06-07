@@ -1,8 +1,8 @@
 //! Abstraction
 //* Abstraction in TypeScript is about hiding complex details and showing only the essential parts. It's like using a TV remote without needing to know how the TV works inside. In programming, abstraction helps us focus on what something does rather than how it's done. For example, we might use a function to calculate the average of numbers without needing to understand the mathematical operations behind it. Abstraction makes our code easier to understand and maintain by hiding unnecessary complexity.
-{
-  //* Using interface
 
+//! Using interface
+{
   //* We get the idea from here
   interface Vehicle {
     startEngine(): void;
@@ -40,8 +40,9 @@
   const toyotaCar = new Car();
   toyotaCar.startEngine();
 }
+
+//! Using abstraction class
 {
-  //* Using abstraction class
   //* An abstract class in TypeScript is like a template for other classes. It outlines what methods and properties they should have but can't be directly used on its own. It's a way to enforce a common structure among related classes.
 
   //* In other words, we're using an abstract class instead of an interface/type
