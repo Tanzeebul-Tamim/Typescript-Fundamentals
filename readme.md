@@ -20,6 +20,8 @@ Each code file is organized with code examples to aid understanding and code fil
 
 ## Clone the Repository:
 
+To clone this repository to your local machine, use the following command:
+
 ```sh
 git clone https://github.com/Tanzeebul-Tamim/Typescript-Fundamentals.git
 ```
